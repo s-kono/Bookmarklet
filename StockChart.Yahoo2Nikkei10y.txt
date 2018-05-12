@@ -1,0 +1,1 @@
+javascript:(function(){location.href=location.href.replace(/.*\/\/stocks.finance.yahoo.co.jp\/stocks\/detail\/\?code=([0-9]+)(\..*)?/,"https://www.nikkei.com/nkd/company/chart/?type=10year&scode=$1&ba=1")})();

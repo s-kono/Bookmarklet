@@ -1,0 +1,1 @@
+javascript:(function(){if(location.href.match(/youtube.com\/\watch\?v=/)){location.href=location.href.replace(/\/\watch\?v=([^&]+).*/,'/embed/$1?autoplay=1&modestbranding=1&rel=0')}else if(location.href.match(/youtube.com\/embed\/(.*)/)){location.href=location.href.replace(/\/embed\/(.*)(\?.*)?/,'/watch\?v=$1');}})();
